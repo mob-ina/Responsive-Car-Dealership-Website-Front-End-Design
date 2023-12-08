@@ -1,0 +1,40 @@
+#header-container{
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+#main-logo{
+    display: block;
+    margin: auto;
+    width: 130px;
+}
+.header-side-design{
+    width: 70px;
+}
+#nav-container{
+    border-bottom: 1px solid #ddd;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto 50px auto;
+}
+.nav-items{
+    color: #fff;
+    font-size: 20px;
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 200px;
+}
+.nav-items:hover{
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
