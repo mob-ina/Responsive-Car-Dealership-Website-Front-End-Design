@@ -14,7 +14,7 @@
 
  ## How to View / Run
  1. clone the repository:
-    '''bash
+    ```bash
     git clone [https://github.com/mob-ina/Responsive-Car-Dealership-Website-Front-End-Design)]
  3. Navigate into the project folder
  4. open index.html in your browser to view the website locally.
