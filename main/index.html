@@ -10,50 +10,111 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
         <link rel="stylesheet" href="ikcocss.css">
-        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Vazirmatn" rel="stylesheet">
+        <link rel="stylesheet" href="../headerAndFooterCSS.css">
+        <link href="https://fonts.googleapis.com/css2?family=Vazirmatn" rel="stylesheet">
     </head>
     <body>
         <main>
             <header>
-                <div id="header">
-                    <div class="header-side-design"></div>
+                <div id="logo-container">
                     <img id="main-logo" src="../images/ikcoicon.png">
-                    <div class="header-side-design"></div>
+                    <div id="logo-txt">
+                        <div id="logo-txt2">
+                            دمــیــرچــی
+                        </div>
+                        <div id="logo-txt1">
+                            نمایندگی مجاز ایرانخودرو 1275
+                        </div>
+                    </div>
                 </div>
-                <nav id="nav-container">
-                    <button type="button" onclick="location.href='https://www.xolz.ir/sales'" class="nav-items nav-items-extended">
+                <div id="menu-container">
+                    <input id="menu-button" type="checkbox">
+                    <label for="menu-button" id="menu-button-label"></label>
+                    <nav id="nav-container">
+                    <button type="button" onclick="location.href='../sales/index.html'" class="nav-items">
                         فروش خودرو
                     </button>
-                    <button type="button" onclick="location.href='https://www.xolz.ir/store'" class="nav-items nav-items-extended">
-                        قطعات و لوازم یدکی 
-                    </button>
-                    <button type="button" onclick="location.href='https://www.xolz.ir/service'" class="nav-items nav-items-extended">
+                    <button type="button" onclick="location.href='../service/index.html'" class="nav-items">
                         خدمات و تعمیرات 
                     </button>
-                    <button type="button" onclick="location.href='https://www.xolz.ir'" class="nav-items">
+                    <button type="button" onclick="location.href='index.html'" class="nav-items">
                         خانه
-                    </button>
-                    <button type="button" onclick="location.href='https://www.xolz.ir/contactus'" class="nav-items">
-                        ارتباط با ما
                     </button>
                     <button type="button" onclick="location.href='#googlemap'" class="nav-items">
                         آدرس و ساعات کاری
                     </button>
-                    <button type="button" onclick="location.href='https://www.xolz.ir/faq'" class="nav-items">
+                    <button type="button" onclick="location.href='../faq/index.html'" class="nav-items">
                         سوالات متداول
                     </button>
-                </nav>
-            </header>
-            <div id="content-container">
-                <button type="button" onclick="location.href='/sales'" id="main-sections-sales" class="main-sections">
-                    فروش خودرو
-                </button>
-                <button type="button" onclick="location.href='/store'" id="main-sections-store" class="main-sections">
-                    قطعات و لوازم یدکی 
-                </button>
-                <button type="button" onclick="location.href='service'" id="main-sections-repair" class="main-sections">
-                    خدمات و تعمیرات 
-                </button>
+                    </nav>
+                </div>
+        </header>
+            <div id="introduction-container">
+                <h3 id="introduction-title">
+                    بیش از پـانـزده ســال تجربه درخشان در زمینه  فروش خودرو، خدمات پس از فروش و تامین قطعات
+                </h3>
+                <p id="introduction-text">
+
+                    ما سعی بر ارائه  بهترین و با 
+                    کیفیت ترین خدمات در زمینه های مختلف را داریم و رضایت شما مشتریان گران قدر 
+                    مهم ترین چیز برای ماست.
+                    با قرار داشتن در موقعیت بسیار مناسب در بزرگراه تهران شهریار،
+                     دسترسی به این نمایندگی برای همه همشهریان گرامی بسیار آسان است. 
+
+                </p>
+                <div id="introduction-rewards-container">
+                    <div class="introduction-rewards">
+                        <p>کسب رتبه یک ارزیابی صنعت و معدن در حوزه فروش خودرو</p>
+                        <img style="width:50px;"  src="../images/medal.png">
+                    </div>
+                    <div class="introduction-rewards">
+                        <p>کسب رتبه یک ارزیابی صنعت و معدن در حوزه خدمات پس از فروش</p>
+                        <img style="width:50px;"  src="../images/medal.png">
+                    </div>
+                    <div class="introduction-rewards">
+                        <p>کسب رتبه یک ارزیابی ایساکو در حوزه خدمات و فروش قطعات</p>
+                        <img style="width:50px;"  src="../images/medal.png">
+                    </div>
+                </div>
+
+            </div>
+            
+            <img id="gold-devider" src="../images/Gold-Wave.png">
+            <div id="main-sections-container">
+                <div onclick="location.href='../sales/index.html'" id="main-sections-sales" class="main-sections">
+                    <div class="main-sections-right">
+                        <div class="main-sections-title">
+                            فــــــــــروش خــــــــــودرو
+                        </div>
+                        <p class="main-sections-text">
+                            کارشناسان فروش ما آماده‌اند تا با صبر و حوصله، شما را در فرآیند ثبت نام و خرید خودرو راهنمایی کنند و به سوالات شما پاسخگو باشند.
+                            شما میتوانید با بازدید از صفحه فروش خودرو از شرایط و بخشنامه های فروش اطلاعات کسب کنید.
+                        </p>
+                        <a class="main-sections-button" href="https://?">کسب اطلاعات بیشتر</a>
+                    </div>
+                    <div class="main-sections-left">
+                        <img class="main-sections-left-img" src="../images/carr.png">
+                    </div>
+                </div>
+                <div onclick="location.href='../service/index.html'" id="main-sections-repair" class="main-sections">
+                    <div class="main-sections-right">
+                        <div class="main-sections-title">
+                            خدمــــــات و تعمیـــــــرات
+                        </div>
+                        <p class="main-sections-text">
+                            نمایندگی ما یکی از بزرگترین مراکز ارائه خدمات تعمیرگاهی
+                             در سراسر کشور هست. تیم متخصص ما آماده ارائه انواع خدمات از جمله
+                             سرویس های دوره ای، تعمیرات اساسی، رنگ و تعویض قطعات به صورت گارانتی 
+                            وارانتی و آزاد هستند.  علاوه بر این، کارشناسان فنی ما می توانند در زمینه 
+                            انتخاب قطعات مناسب، هزینه تعمیرات و زمان مورد نیاز به شما مشاوره دهند.
+                             هدف ما ارائه بهترین خدمات با کیفیت عالی و قیمت رقابتی است.
+                        </p>
+                        <a class="main-sections-button" href="../service/index.html">رزرو نوبت و درخواست تعمیرات</a>
+                    </div>
+                    <div class="main-sections-left">
+                        <img class="main-sections-left-img" src="../images/car-repair.png">
+                    </div>
+                </div>
             </div>
         </main>
         <footer>
@@ -70,7 +131,6 @@
                     <h5 class="footer-heading">آدرس و ساعات کاری</h5>
                         <p>آدرس: تهران, شهریار, باغستان، بین درب اول و دوم پلاک 125</p>
                         <p>ساعات کاری:08:00 تا 12:30 و 14:30 تا 16:30</p>
-
                 </div>
                 <div class="footer-info-containers" id="contactus-info">
                         <h5 class="footer-heading">ارتباط با ما</h5>
@@ -82,7 +142,6 @@
                             <tr>
                                 <td>خدمات پس از فروش و تعمیرگاه</td>
                                 <td>02165239000</td>
-
                             </tr>
                             <tr>
                                 <td>فروشگاه قطعات و لوازم یدکی</td>
@@ -91,11 +150,8 @@
                         </table>
                 </div>
             </div>
-                <iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6144.16060996254!2d51.12854123142999!3d35.646473912708075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8df118a1f63c0b%3A0x7f5943e817ca0a08!2sirankhodro%201275!5e0!3m2!1sen!2s!4v1696438722377!5m2!1sen!2s" 
-                width="600" height="200" style="border:0; display:block; margin:50px auto auto auto ;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+            <iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6144.16060996254!2d51.12854123142999!3d35.646473912708075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8df118a1f63c0b%3A0x7f5943e817ca0a08!2sirankhodro%201275!5e0!3m2!1sen!2s!4v1696438722377!5m2!1sen!2s" 
+            width="600" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
         </footer>
     </body>
 </html>
-<script>
-
-</script>
